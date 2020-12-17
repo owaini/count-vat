@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='description' content="app for calculate VAT" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc VAT</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    
+  <h1> <span id='perce'>VAT</span> Calculator</h1>
+    <form id='form__calc'>
+        <p>Bill Amount: <input id='amount' /></p>
+        <p>Percentage VAT: <input id='percentage' /></p>
+        
+        <p>VAT amount: <input id="vat" disabled="disabled"/></p>
+        <p>Total: <input id="total" disabled="disabled"/></p>
+        <p><input id="addup" type="submit" value="calculate"/></p>
+    </form>
+
+        <script src="app.js"></script>
+</body>
+</html>
